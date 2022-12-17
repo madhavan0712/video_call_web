@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import AgoraRTC from 'agora-rtc-sdk-ng';
 import { VideoPlayer } from './VideoPlayer';
 
-const APP_ID = '184e024c5ce04c209438ad15119134df';
+const APP_ID = '538dc6b4a4274509a77122d3c14835aa';
 const TOKEN =
-  '007eJxTYGg0eLLgzWWXF0urHZx+bsq2O9psvDMzcNc31tCp6kUdGxUVGEyNLVKSzZJMEk2MzE1MDSwTzc0NjYxSjJMNTSyMTRMTndJnJjcEMjL8FkhjYmSAQBCflSE3MSWlkoEBAKoJH9M=';
+  '007eJxTYLhSHLp+17GXPpwMHBZ7BAqrz807vHqp7MQzEYv598baqtYrMJgaW6QkmyWZJJoYmZuYGlgmmpsbGhmlGCcbmlgYmyYmBuycm9wQyMiwiNWMlZEBAkF8VobcxJSUSgYGABooHg8=';
 const CHANNEL = 'maddy';
 
 const client = AgoraRTC.createClient({
