@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import AgoraRTC from 'agora-rtc-sdk-ng';
 import { VideoPlayer } from './VideoPlayer';
 
-const APP_ID = '538dc6b4a4274509a77122d3c14835aa';
-const TOKEN =
-  '007eJxTYOjS9zrxSX9T/8pbKob7qzbwbu+WuFKjplVs+6D2wd9YS34FBlNji5RksySTRBMjcxNTA8tEc3NDI6MU42RDEwtj08REJSHxlIZARoaf2mmMjAwQCOKzMuQmpqRUMjAAACccHeM=';
-const CHANNEL = 'maddy';
+const APP_ID = '__App_id_ agora';
+const TOKEN ='Agora.io'
+
+const CHANNEL = 'channel name!!';
 
 const client = AgoraRTC.createClient({
   mode: 'rtc',
